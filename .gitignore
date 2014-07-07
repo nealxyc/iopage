@@ -1,1 +1,6 @@
 _site
+
+# Eclipse assets
+.externalToolBuilders/
+.project
+.settings/
