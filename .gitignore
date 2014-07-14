@@ -4,3 +4,6 @@ _site
 .externalToolBuilders/
 .project
 .settings/
+
+# deployment temp folder
+deploy

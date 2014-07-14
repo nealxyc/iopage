@@ -12,6 +12,9 @@ markdown: kramdown
 permalink: pretty
 kramdown:
   input: GFM
+
+# Deployment temp files
+exclude: [deploy.sh, deploy]
  
 # post format
 defaults:
