@@ -7,3 +7,6 @@ _site
 
 # deployment temp folder
 deploy
+
+# deploy keys file
+/credential
