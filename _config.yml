@@ -14,7 +14,7 @@ kramdown:
   input: GFM
 
 # Deployment temp files
-exclude: [deploy.sh, deploy, credential]
+exclude: [deploy.sh, deploy, credential, cred]
  
 # post format
 defaults:
