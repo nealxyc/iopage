@@ -157,6 +157,29 @@ a:visited { color: #205caa; }
   line-height: 1;
 }
 
+.comment-count {
+  padding: 0 2px 0 2px ;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: #A0A0A0;
+}
+
+.comment-icon {
+ /*  margin: 2px 2px 2px 2px; */
+  padding: 2px 2px 2px 2px;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.comment-count a:link,
+.comment-count a:visited,
+.comment-count a:hover,
+.comment-count a:active {
+	color:#A0A0A0;
+}
+
 .posts .post-date {
   display: block;
   font-size: 15px;

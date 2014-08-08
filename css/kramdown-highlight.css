@@ -40,6 +40,7 @@ body{
 
 }
 
+
 .post-content h1,
 .post-content h2,
 .post-content h3,
@@ -47,11 +48,20 @@ body{
 .post-content h5,
 .post-content h6 {
   line-height: 1.7;
-  font-weight: normal;
+  font-weight: 300;
   margin: 1em 0 15px;
   padding: 0;
   cursor: text;
   position: relative;
+}
+
+.post-header h1,
+.post-header h2,
+.post-header h3,
+.post-header h4,
+.post-header h5,
+.post-header h6 {
+	font-weight: normal;
 }
 .post-content h1, .post-header h1 {
 	font-size: 2em;
