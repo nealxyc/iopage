@@ -1,4 +1,7 @@
+encoding: utf-8
+
 # Site settings
+window_title: 🐻
 title: Hello there!
 email: 
 description: ""
