@@ -5,9 +5,8 @@ rvm:
 # install jekyll 
 before_script:
  - gem install jekyll
- - ./pre.sh
 
-script: ./deploy.sh
+script: jekyll build
 
 # branch whitelist
 branches:
