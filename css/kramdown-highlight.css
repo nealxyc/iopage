@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+body{
+	
+}
+.post > .highlight .lineno {
+	color: #ccc; 
+	display:inline-block; 
+	padding: 0 5px; 
+	border-right:1px solid #ccc; 
+	font-size: 12px;
+}
+.post > .highlight pre code {
+	display: block; 
+	white-space: pre; 
+	overflow-x: auto; 
+	word-wrap: normal; 
+	font-size: 12px;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.line-numbers pre {
+	
+}
+
+.post pre,
+.post code
+{
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.post-content{
+	overflow: hidden;
+	font: 16px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+	line-height: 1.6;
+	word-wrap: break-word;
+
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  line-height: 1.7;
+  font-weight: normal;
+  margin: 1em 0 15px;
+  padding: 0;
+  cursor: text;
+  position: relative;
+}
+.post-content h1, .post-header h1 {
+	font-size: 2em;
+}
+.post-content h2 {
+  font-size: 1.75em;
+  letter-spacing: -1.25px;
+}
+
+.post-content h3 {
+  font-size: 1.5em;
+  letter-spacing: -1px;
+}
+
+.post-content h4 {
+  font-size: 1.25em;
+  letter-spacing: -1px;
+}

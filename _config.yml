@@ -10,8 +10,11 @@ github_username:  nealxyc
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# kramdown config
 kramdown:
   input: GFM
+  coderay_line_numbers: nil
 
 # Deployment temp files
 exclude: [deploy.sh, deploy, credential, cred]

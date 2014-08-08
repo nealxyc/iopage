@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+ - 2.1
+
+# install jekyll 
+before_script:
+ - gem install jekyll
+ - ./pre.sh
+
+script: ./deploy.sh
+
+# branch whitelist
+branches:
+  only:
+  - master     # test the gh-pages branch
+ 
+
+env:
+ - secure:""
