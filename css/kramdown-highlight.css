@@ -80,3 +80,8 @@ body{
   font-size: 1.25em;
   letter-spacing: -1px;
 }
+
+.glyphicon_social_rss:before{
+	color:#FF9933;
+	content: url('/image/glyphicons_social_37_rss.png');
+}
