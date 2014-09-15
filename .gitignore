@@ -1,5 +1,9 @@
 _site
 
+# npm and bower
+node_modules
+bower_components
+
 # Eclipse assets
 .externalToolBuilders/
 .project

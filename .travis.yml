@@ -12,7 +12,7 @@ script: jekyll build
 branches:
   only:
   - master     # test the gh-pages branch
- 
+
 
 env:
  - secure:""

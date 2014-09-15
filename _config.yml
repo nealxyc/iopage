@@ -12,7 +12,7 @@ github_username:  nealxyc
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: posts/:categories/:year/:month/:day/:title/
 
 # kramdown config
 kramdown:
@@ -20,8 +20,8 @@ kramdown:
   coderay_line_numbers: nil
 
 # Deployment temp files
-exclude: [deploy.sh, deploy, credential, cred]
- 
+exclude: [deploy.sh, deploy, credential, cred, bower.json, package.json, Gruntfile.js, node_modules, bower_components]
+
 # post format
 defaults:
   -
@@ -30,7 +30,7 @@ defaults:
       type: "post"
     values:
       layout: "post"
-      
+
 collections:
   projects:
     output: true
